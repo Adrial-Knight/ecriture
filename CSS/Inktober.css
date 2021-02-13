@@ -3,3 +3,19 @@
     text-indent: 5%;
     font-size: 14px;
 }
+
+.page-text-style{
+    text-align: justify;
+    text-indent: 5%;
+    font-size: 19px;
+}
+
+.poeme-text-style{
+  padding-left: 20%;
+  font-size: 19px;
+}
+
+.col-sm > header > h2{
+  font-size: 30px;
+  text-align: center;
+}

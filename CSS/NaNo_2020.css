@@ -1,5 +1,18 @@
 .page-text-style{
     text-align: justify;
     text-indent: 5%;
-    font-size: 14px;
+    font-size: 18px;
+}
+
+.center_italique{
+    text-indent: 0%;
+    text-align: justify;
+    text-align-last: center;
+    font-style: italic;
+}
+
+.over_tab{
+    text-indent: 0;
+    margin-left: 5%;
+    margin-right: 5%;
 }

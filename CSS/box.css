@@ -4,14 +4,11 @@ body {
     color: #000;
 }
 
-.my-cl {
+article {
     float: left;
-}
-
-#cl_1_1 {
     margin: 0;
     padding: 0;
-    width: 316px;
+    width: 430px;
 }
 
 .my-box{
@@ -23,26 +20,34 @@ body {
 }
 
 .my-box-titre {
-    background-image: url(Box/box_300_header.gif);
+    background-image: url(Box/box_430_header.png);
     margin: 0px;
     padding: 4px 10px 20px 10px;
-    height: 17px;
+    height: 40px;
     background-color: #FFCC00;
 }
 
 .my-box-titre > h2 {
-    font-size: 14px;
-    color: #737373;
+    font-size: 24px;
+    color: black;
     display: block;
-    margin: 0px;
+    margin-top: 1px;
+    margin-left: 5px;
     padding: 0px;
 }
 
+.subtop{
+  background-image: url(Box/box_430_subtop.png);
+  background-position: bottom;
+  padding: 3px 16px 3px 16px;
+  overflow: hidden;
+}
+
 .my-box-content {
-    background-image: url(Box/box_300_backgroundbottom.gif);
+    background-image: url(Box/box_430_backgroundbottom.png);
     background-position: bottom;
     background-repeat: repeat-y;
-    padding: 3px 8px 0px 8px;
+    padding: 3px 16px 0px 16px;
     color: #0C2600;
     overflow: hidden;
 }
@@ -53,8 +58,7 @@ body {
 }
 
 .my-box-footer {
-    background-image: url(Box/box_300_bottom.gif);
+    background-image: url(Box/box_430_bottom.png);
     background-position: bottom;
-    margin-top: 0px;
     height: 20px;
 }

@@ -8,21 +8,19 @@ article {
     float: left;
     margin: 0;
     padding: 0;
-    width: 430px;
+    width: 415px;
 }
 
 .my-box{
-    margin: auto;
     margin-bottom: 15px;
-
     width: 100%;
     overflow: hidden;
 }
 
 .my-box-titre {
-    background-image: url(Box/box_430_header.png);
+    background-image: url(Box/415/box_header.png);
     margin: 0px;
-    padding: 4px 10px 20px 10px;
+    padding: 4px 0px 0px 10px;
     height: 40px;
     background-color: transparent;
 }
@@ -37,7 +35,7 @@ article {
 }
 
 .subtop{
-  background-image: url(Box/box_430_subtop.png);
+  background-image: url(Box/415/box_subtop.png);
   background-position: bottom;
   padding: 3px 16px 3px 16px;
   background-color: transparent;
@@ -45,7 +43,7 @@ article {
 }
 
 .my-box-content {
-    background-image: url(Box/box_430_backgroundbottom.png);
+    background-image: url(Box/415/box_backgroundbottom.png);
     background-position: bottom;
     background-repeat: repeat-y;
     padding: 3px 16px 0px 16px;
@@ -54,7 +52,7 @@ article {
 }
 
 .my-box-footer {
-    background-image: url(Box/box_430_bottom.png);
+    background-image: url(Box/415/box_bottom.png);
     background-position: bottom;
     background-color: transparent;
     height: 20px;

@@ -1,0 +1,21 @@
+.index-text-style{
+    text-align: justify;
+    text-indent: 5%;
+}
+
+.NaNo_headband{
+  background-image: url("../Categories/NaNoWriMo_2020/NaNo-headband.png");
+  weight: 100%;
+  background-position: center
+  color: #56301d;
+}
+
+body, html{
+    background:url('../Categories/NaNoWriMo_2020/Chaine_noir_blanc.svg');
+    background-color: #572215;
+    background-size:100% 100%;
+    margin:0;
+    width:100%;
+    height:100%;
+    background-repeat:no-repeat;
+}

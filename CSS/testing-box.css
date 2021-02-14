@@ -1,0 +1,60 @@
+body {
+    font-family: verdana, sans-serif;
+    font-size: 12px;
+    color: #000;
+}
+
+.my-cl {
+    float: left;
+}
+
+#cl_1_1 {
+    margin: 0;
+    padding: 0;
+    width: 316px;
+}
+
+.my-box{
+    margin: auto;
+    margin-bottom: 15px;
+
+    width: 100%;
+    overflow: hidden;
+}
+
+.my-box-titre {
+    background-image: url(Box/box_300_header.gif);
+    margin: 0px;
+    padding: 4px 10px 20px 10px;
+    height: 17px;
+    background-color: #FFCC00;
+}
+
+.my-box-titre > h2 {
+    font-size: 14px;
+    color: #737373;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+.my-box-content {
+    background-image: url(Box/box_300_backgroundbottom.gif);
+    background-position: bottom;
+    background-repeat: repeat-y;
+    padding: 3px 8px 0px 8px;
+    color: #0C2600;
+    overflow: hidden;
+}
+
+.my-box-content > ul > li {
+    list-style-type: square;
+    color: #FFCC00;
+}
+
+.my-box-footer {
+    background-image: url(Box/box_300_bottom.gif);
+    background-position: bottom;
+    margin-top: 0px;
+    height: 20px;
+}

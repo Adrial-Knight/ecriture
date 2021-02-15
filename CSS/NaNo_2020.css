@@ -7,14 +7,30 @@ header + div{
   height: 750px;
 }
 
+.chapiter-title{
+  font-size: 30px;
+  font-family: cursive;
+  text-align: center;
+}
+
 .page-text-style{
     text-align: justify;
-    padding-top: 2%;
+    padding-top: 3%;
     padding-left: 5%;
     padding-right: 5%;
     text-indent: 5%;
-    font-size: 18px;
+    font-size: 20px;
     color: black;
+}
+
+.no-indent{
+  text-indent: 0%;
+}
+
+.over_tab{
+    text-indent: 0;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .center_italique{
@@ -24,12 +40,40 @@ header + div{
     font-style: italic;
 }
 
-.over_tab{
-    text-indent: 0;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
 footer{
   margin-top: 10px;
+}
+
+
+/*pagination*/
+.page-link{
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #003C00;
+  background-color: #D8EBEB;
+}
+
+.page-item.disabled .page-link{
+  color: #868e96;
+  pointer-events: none;
+  cursor: auto;
+  background-color: #718393;
+  border-color: #718393;
+}
+
+.page-item.active .page-link{
+  z-index: 1;
+  color: #fff;
+  background-color: #003C00;
+  border-color: #003C00;
+}
+
+.page-link:focus, .page-link:hover{
+  color: #fff;
+  text-decoration: none;
+  background-color: #003C00;
+  border-color: #718393;
 }

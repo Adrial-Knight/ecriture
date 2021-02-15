@@ -1,7 +1,19 @@
+body{
+  background-color: #572215;
+}
+
+header + div{
+  background-color: #c48a53;
+}
+
 .page-text-style{
     text-align: justify;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
     text-indent: 5%;
     font-size: 18px;
+    color: black;
 }
 
 .center_italique{
@@ -15,4 +27,8 @@
     text-indent: 0;
     margin-left: 5%;
     margin-right: 5%;
+}
+
+footer{
+  margin-top: 10px;
 }

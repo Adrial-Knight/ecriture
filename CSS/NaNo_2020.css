@@ -4,6 +4,7 @@ body{
 
 header + div{
   background-color: #c48a53;
+  height: 750px;
 }
 
 .page-text-style{

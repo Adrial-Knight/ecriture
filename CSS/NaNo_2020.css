@@ -4,7 +4,6 @@ body{
 
 header + div{
   background-color: #c48a53;
-  height: 750px;
 }
 
 .chapiter-title{
@@ -20,17 +19,27 @@ header + div{
     padding-right: 5%;
     text-indent: 5%;
     font-size: 20px;
+    line-height: 2.5rem;
     color: black;
 }
 
-.no-indent{
-  text-indent: 0%;
+.page-text-style > p, .over_tab, .over_tab>p{
+  margin-top: 2.5rem;
 }
 
 .over_tab{
     text-indent: 0;
     margin-left: 5%;
     margin-right: 5%;
+    text-align-last: left !important;
+}
+
+p:last-child{
+  text-align-last: justify;
+}
+
+.no-indent{
+  text-indent: 0%;
 }
 
 .center_italique{

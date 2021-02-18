@@ -5,8 +5,9 @@ body {
 }
 
 article {
-    float: left;
-    margin: 0;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0;
     width: 415px;
 }

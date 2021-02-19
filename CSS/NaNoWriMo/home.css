@@ -3,11 +3,16 @@
     text-indent: 5%;
 }
 
-.NaNo_headband{
+.headband{
   background-image: url("headband.png");
+  background-color: color: #56301d;
   weight: 100%;
-  background-position: center
-  color: #56301d;
+  text-align: center;
+  font-size: 2rem;
+  padding : 50px;
+  margin-bottom: 50px;
+  margin-top: 5px;
+  color: black;
 }
 
 body, html{

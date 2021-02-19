@@ -1,0 +1,31 @@
+body, html{
+    background-color: black;
+}
+
+#title{
+  color: #e81c0c;
+  text-decoration:none;
+  display: block;
+}
+
+.col-sm > header > h2{
+  background-color: #e81c0c;
+  color: black;
+  display: block;
+  font-size: 30px;
+  text-align: center;
+}
+
+.page-text-style, .poeme-text-style{
+  color: #FF4500;
+  font-size: 19px;
+}
+
+.page-text-style{
+    text-align: justify;
+    text-indent: 5%;
+}
+
+.poeme-text-style{
+  padding-left: 20%;
+}

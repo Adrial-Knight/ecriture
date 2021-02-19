@@ -1,0 +1,31 @@
+.page-link{
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #e81c0c;
+  background-color: #D8EBEB;
+}
+
+.page-item.disabled .page-link{
+  color: black;
+  pointer-events: none;
+  cursor: auto;
+  background-color: black;
+  border-color: black;
+}
+
+.page-item.active .page-link{
+  z-index: 1;
+  color: #fff;
+  background-color: #e81c0c;
+  border-color: #e81c0c;
+}
+
+.page-link:focus, .page-link:hover{
+  color: #fff;
+  text-decoration: none;
+  background-color: #e81c0c;
+  border-color: #FF4500;
+}

@@ -1,0 +1,17 @@
+.headband{
+  background-image: url("headband.png");
+  background-color: grey;
+  weight: 100%;
+  text-align: center;
+  font-size: 2rem;
+  padding : 30px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  color: black;
+}
+
+.display{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}

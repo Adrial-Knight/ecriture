@@ -1,11 +1,36 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <title>Page d'erreur 404</title>
+  <title>404</title>
+  <link rel="icon" href="favicon.svg">
+  <link rel="stylesheet" href="CSS/Error/404.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <meta http-equiv="refresh" content="5; URL=index.html">
   </head>
   <body>
-    <h1>Oups! Page introuvable</h1>
-    <p>Vous avez tenté d’accéder à une page qui ne se trouve plus sur ce site. Veuillez revenir sur la page d'accueil afin de continuer votre navigation sur notre site.</p>
-    <p><a href="../index.html">Revenir à l'accueil</a></p>
+    <header>
+      <div class="container pt-2">
+        <div class="row">
+          <div class="col-sm">
+            <nav class="nav nav-pills">
+              <a class="nav-link" href="index.html">
+                <h4 class="text-secondary font-weight-bold">Les récits de 𝝅'eirb</h4>
+              </a>
+            </nav>
+          </div>
+          <div class="col-sm">
+            <nav class="nav nav-pills justify-content-end">
+              <a class="nav-link text-danger" href="Categories/Inktober_2020/1.html">Inktober 2020</a>
+              <a class="nav-link text-success" href="Categories/NaNoWriMo_2020/1.html">NaNoWriMo 2020</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container headband">
+      <h1> Oups! Page introuvable</h2>
+      <h5>Redirection vers la page d'accueil d'ici 5 secondes</5>
+    </div>
+    <img  class="display" src="CSS/Error/Chibi_Knight.png" width="40%" height="100%"/>
   </body>
 </html>

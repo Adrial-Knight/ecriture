@@ -5,7 +5,9 @@
 
 .headband{
   background-image: url("headband.png");
+  background-position: center;
   background-color: color: #56301d;
+  background-repeat: no-repeat;
   weight: 100%;
   text-align: center;
   font-size: 2rem;
@@ -15,12 +17,17 @@
   color: black;
 }
 
+.margin-lr{
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
 body, html{
-    background:url('background.svg');
-    background-color: #572215;
-    background-size:100% 100%;
-    margin:0;
-    width:100%;
-    height:100%;
-    background-repeat:no-repeat;
+  background:url('background.svg');
+  background-color: #572215;
+  background-size:100% 100%;
+  margin:0;
+  width:100%;
+  height:100%;
+  background-repeat:no-repeat;
 }

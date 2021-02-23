@@ -11,6 +11,8 @@ body, html{
 .headband{
   background-image: url("headband.png");
   background-color: orange;
+  background-position: center;
+  background-repeat: no-repeat;
   weight: 100%;
   text-align: center;
   font-size: 2rem;
@@ -18,6 +20,11 @@ body, html{
   margin-bottom: 50px;
   margin-top: 5px;
   color: black;
+}
+
+.margin-lr{
+  margin-left: 4%;
+  margin-right: 4%;
 }
 
 a{

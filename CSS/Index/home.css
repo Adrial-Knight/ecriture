@@ -15,6 +15,11 @@ body{
   margin-bottom: 20px;
 }
 
+.margin-lr{
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
 #NaNoWriMo{
   background-image: url("../NaNoWriMo/background.svg");
   background-color: #572215;
@@ -48,7 +53,7 @@ h2{
   text-align: justify;
 }
 
-#NaNoWriMo > article > p, #Inktober > .container > .row > .col-sm > p{
+#NaNoWriMo > article > p, #Inktober > .container > .row > .col-4 > p{
   font-size: 20px;
 }
 
